@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 950px;
+  font-family: "Poor Story", system-ui;
+}
+h1 {
+  font-family: "Poor Story", system-ui;
+}
+button {
+  font-family: "Poor Story", system-ui;
+}
+
+.boxs {
+  display: flex;
+  justify-content: space-around;
+  gap: 42px;
+  position: relative;
+}
+.number {
+  position: absolute;
+  top: -380px;
+  font-size: 200px;
+}
+.btn-increment {
+  padding: 18px;
+  width: 230px;
+  font-size: 30px;
+  background-color: green;
+  border: 2px solid green;
+  color: white;
+  border-radius: 7px;
+  transition: all 0.9s;
+  &:hover {
+    background-color: black;
+    border-color: black;
+    color: green;
+  }
+}
+
+.btn-dencrement {
+  padding: 18px;
+  width: 230px;
+  font-size: 30px;
+  background-color: red;
+  border: 2px solid red;
+  color: white;
+  border-radius: 7px;
+  transition: all 0.9s;
+  &:hover {
+    background-color: black;
+    border-color: black;
+    color: rgb(128, 0, 0);
+  }
+}
